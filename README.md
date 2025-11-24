@@ -1,5 +1,30 @@
 # **Case Técnico – Processo Seletivo**
 
+## **Estrutura do Projeto**
+
+Este projeto está dividido em duas partes principais:
+
+### **📂 Backend** (`/backend`)
+- API REST desenvolvida em **Java 21 com Spring Boot**
+- Documentação completa disponível em [`backend/README.md`](backend/README.md)
+- Configuração Docker em arquivos `docker-compose` separados por responsabilidade
+- Banco de dados PostgreSQL com gerenciamento de persistência
+
+### **📂 Frontend** (`/frontend`)
+- Aplicação web desenvolvida em **Angular 21**
+- Documentação completa disponível em [`frontend/README.md`](frontend/README.md)
+- Configuração Docker própria com Nginx
+- Interface responsiva com Tailwind CSS
+
+**Cada pasta contém:**
+- README.md específico com instruções detalhadas de instalação e execução
+- Arquivos docker-compose próprios para deployment
+- Configurações e dependências independentes
+
+Para instruções completas de configuração, instalação e execução de cada módulo, consulte os READMEs específicos em suas respectivas pastas.
+
+---
+
 ## **Problema**
 
 Desenvolver uma aplicação web para **controlar o uso de espaços de ensino**, permitindo análise da taxa de ocupação.  
